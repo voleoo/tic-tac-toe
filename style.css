@@ -1,0 +1,132 @@
+body{
+	background: #dfdfdf;
+	color: #000000;
+}
+#newgame{
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 20px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 800px;
+}
+#wantX{
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 20px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 920px;
+}
+#cell11{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+#cell12{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: 305px;
+}
+#cell13{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: 510px;
+}
+#cell21{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 255px;
+	left: 100px;
+}
+#cell22{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 255px;
+	left: 305px;
+}
+#cell23{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 255px;
+	left: 510px;
+}
+#cell31{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 460px;
+	left: 100px;
+}
+#cell32{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 460px;
+	left: 305px;
+}
+#cell33{
+	text-decoration: none;
+	font-size: 180px;
+	text-align: center;
+	display: block;
+	background: #ff0000;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 460px;
+	left: 510px;
+}
