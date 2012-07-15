@@ -1,11 +1,40 @@
 <?php
-class tictactoe extends SQLiteDatabase{
+class tictactoe extends SQLite3{
 	var $gameID = false;
 	var $sesid = false;
 	var $step = false;
 	var $tableMain = 'ttt';
 	var $tableGame = 'game';
 
+	function arrayQuery($sql){
+		if(isset($sql)){
+			$result = $this->query($sql);
+			if($result){
+				if($result->columnName(0)){
+					while ($row = $result->fetchArray(SQLITE3_ASSOC)){
+						$array[] = $row;
+					}			
+				}
+				if(isset($array)){
+					if(is_array($array)){
+						return $array;
+					}
+					else{
+						return false;
+					}			
+				}
+				else{
+					return true;
+				}
+			}
+			else{
+				return false;
+			}
+		}
+		else{
+			return false;
+		}
+	}
 
 	function createTableGame(){
 		$result = $this->arrayQuery("SELECT name FROM sqlite_master WHERE name='".$this->tableGame."'");
